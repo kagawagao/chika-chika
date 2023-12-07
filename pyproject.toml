@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "app"
+version = "0.0.1"
+description = "A Python project template with a strong opinion for personal use"
+authors = ["kagawagao <kingsongao1221@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/kagawagao/chika-chika"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0.post1"
+dynaconf = "^3.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
