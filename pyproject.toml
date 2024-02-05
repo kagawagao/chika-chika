@@ -9,7 +9,7 @@ homepage = "https://github.com/kagawagao/chika-chika"
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
-fastapi = "^0.104.1"
+fastapi = "^0.109.1"
 uvicorn = "^0.24.0.post1"
 dynaconf = "^3.2.4"
 
